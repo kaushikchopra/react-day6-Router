@@ -7,7 +7,6 @@ import FullStackDevelopment from './components/FullStackDevelopment';
 import DataScience from './components/DataScience';
 import CyberSecurity from './components/CyberSecurity';
 import Career from './components/Career';
-import { useState } from 'react';
 import Footer from './components/Footer';
 
 function App() {

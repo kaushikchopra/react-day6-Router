@@ -14,18 +14,41 @@ function Footer() {
                     <div className="col-md-4">
                         <h4>Quick Links</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#">Courses</a>
+                            </li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#">Contact</a>
+                                {/* eslint-enable-next-line */}
+                            </li>
                         </ul>
                     </div>
                     <div className="col-md-4">
                         <h4>Follow Us</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#"><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a></li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'facebook']} /></a>
+                            </li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                            </li>
+                            <li>
+                                {/* eslint-disable-next-line */}
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']} /></a>
+                                {/* eslint-enable-next-line */}
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -45,9 +45,11 @@ function Navbar() {
                             </a>
                         </li>
                         <li className="nav-item dropdown">
+                            {/* eslint-disable-next-line */}
                             <a className="nav-link dropdown-toggle" href="#" id="liveClassesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 LIVE CLASSES
                             </a>
+                            {/* eslint-enable-next-line */}
                             <div className="dropdown-menu" aria-labelledby="liveClassesDropdown">
                                 <div className="container">
                                     <div className="row">
@@ -79,9 +81,11 @@ function Navbar() {
                             </div>
                         </li>
                         <li className="nav-item dropdown">
+                            {/* eslint-disable-next-line */}
                             <a className="nav-link dropdown-toggle" href="#" id="practiceDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 PRACTICE
                             </a>
+                            {/* eslint-enable-next-line */}
                             <div className="dropdown-menu" aria-labelledby="practiceDropdown">
                                 <a className="dropdown-item" href="https://www.guvi.in/code-kata">
                                     <p>Codekata</p>
@@ -98,9 +102,11 @@ function Navbar() {
                             </div>
                         </li>
                         <li className="nav-item dropdown">
+                            {/* eslint-disable-next-line */}
                             <a className="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 RESOURCES
                             </a>
+                            {/* eslint-enable-next-line */}
                             <div className="dropdown-menu" aria-labelledby="resourcesDropdown">
                                 <a className="dropdown-item" href="https://www.guvi.in/rewards">
                                     REWARDS
@@ -117,9 +123,11 @@ function Navbar() {
                             </div>
                         </li>
                         <li className="nav-item dropdown">
+                            {/* eslint-disable-next-line */}
                             <a className="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 OUR PRODUCTS
                             </a>
+                            {/* eslint-enable-next-line */}
                             <div className="dropdown-menu" aria-labelledby="productsDropdown">
                                 <a className="dropdown-item" href="https://www.hackerkid.org/">
                                     <p>HackerKid</p>
