@@ -59,7 +59,6 @@ body {
   text-decoration: none;
   color: #54595F;
   font-weight: 600;
-  transition: color 0.3s, text-decoration 0.3s;
   color: #0EBA4B;
   padding-bottom: 50px;
   text-decoration: none;
@@ -86,5 +85,17 @@ body {
 
   .header-navbar ul li {
     padding: 10px 0;
+  }
+
+  .header-navbar ul li .blog-navbar {
+    padding-bottom: 0;
+  }
+
+  .header-navbar ul li .blog-navbar:hover {
+    border-bottom: none;
+  }
+
+  .header-navbar ul li .blog-navbar:focus {
+    border-bottom: none;
   }
 }
