@@ -1,0 +1,109 @@
+/* Blog Container */
+.blog-container {
+    padding: 40px 0;
+}
+
+.card-group {
+    margin: 0 9.37rem;
+}
+
+/* Card Row */
+.card-group .row {
+    padding: 10px;
+    justify-content: space-between;
+}
+
+/* Card */
+
+.card {
+    padding: 0;
+    margin: auto;
+    margin-bottom: 40px;
+    height: 26.545rem;
+}
+
+/* Card Image */
+.card-img-top {
+    height: 10.82rem;
+    margin-bottom: 20px
+}
+
+/* Card Body */
+.card-body {
+    padding: 0 30px;
+}
+
+/* Title Styling */
+.title {
+    margin-bottom: 7px;
+}
+
+.title .card-title {
+    text-decoration: none;
+    color: #101010;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+/* Description Styling */
+.card-text {
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #0AAA01;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.read-more:hover {
+    color: #078b00;
+}
+
+/* Card Footer adjusted to have same format */
+.footer {
+    width: 100%;
+    height: 47px;
+    padding: 15px 30px;
+    color: #ADADAD;
+    font-size: 12px;
+    border-top: 1px solid #EAEAEA;
+}
+
+.footer .comments::before {
+    content: "•";
+    margin: 0 5px;
+}
+
+/* For medium-sized screens (tablets, landscape phones) */
+@media (max-width: 992px) {
+    .card-group {
+        margin: 0;
+        /* Remove the horizontal margin for cards */
+    }
+}
+
+/* For small screens (portrait phones) */
+@media (max-width: 576px) {
+    .card-group .row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 760px) {
+    .card {
+        margin-right: 20px; 
+        margin-bottom: 20px; 
+        height: 100%; 
+    }
+
+    .card:nth-child(2n) {
+        margin-right: 0; 
+    }
+}

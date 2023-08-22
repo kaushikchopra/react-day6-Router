@@ -1,38 +1,90 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Blog Header */
+.header-container {
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blog-header {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Guvi Blog Header Image */
+.img-div {
+  padding: 10px;
+  height: 100%;
+  margin-bottom: 16px;
+}
+
+/* Change Header Image display in smaller screens */
+@media (max-width: 800px) {
+  .img-div {
+    display: none;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-div img {
+  max-width: 78%;
+}
+
+/* Blog Navbar */
+.header-navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.header-navbar ul li {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Link / Anchor tags of Blog Navbar */
+.header-navbar ul li .blog-navbar {
+  text-decoration: none;
+  color: #54595F;
+  font-weight: 600;
+  transition: color 0.3s, text-decoration 0.3s;
+  color: #0EBA4B;
+  padding-bottom: 50px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+/* Define the hover effect */
+.header-navbar ul li .blog-navbar:hover {
+  border-bottom: 5px solid #008f32;
+  color: #008f32;
+}
+
+/* Make the active link to stay focused */
+.header-navbar ul li .blog-navbar:focus {
+  border-bottom: 5px solid #008f32;
+  color: #008f32;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .header-navbar ul {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .header-navbar ul li {
+    padding: 10px 0;
   }
 }

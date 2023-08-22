@@ -1,0 +1,76 @@
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Navbar container */
+.container {
+    padding: 0 15px;
+}
+
+/* Navbar logo */
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navbar links */
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    font-size: 15px;
+    color: #535b62;
+    font-weight: 700;
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Badge styling */
+.badge-secondary {
+    background-color: #007bff;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* Custom spacing for dropdown items */
+.dropdown-menu .container {
+    padding: 15px;
+}
+
+/* Adjust dropdown item layout */
+.dropdown-menu .container .row {
+    margin-bottom: 10px;
+}
+
+/* Add spacing between dropdown items */
+.dropdown-divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Enable hover effect for dropdown on desktop screens */
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .container {
+        margin: 0 10rem;
+    }
+}

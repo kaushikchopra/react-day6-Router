@@ -1,0 +1,47 @@
+/* Custom CSS for Footer */
+/* Background and text color */
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+/* Padding and spacing */
+footer {
+    padding: 40px 0;
+}
+
+/* Center align the copyright text */
+footer .text-center {
+    text-align: center;
+}
+
+/* Increase the font size of headings */
+footer h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Style the list items in the footer */
+footer ul.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+/* Style links in the footer */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style social media icons */
+footer ul.list-unstyled li a i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer .mt-4 {
+    margin-top: 20px;
+}
+
+footer .border-top {
+    border-top: 1px solid #4d4d4d;
+}
